@@ -1,0 +1,49 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  --background: #FFE5EC;
+  --foreground: #5C2D3C;
+  --card: #FFFAF9;
+  --card-foreground: #5C2D3C;
+  --popover: #FFFAF9;
+  --popover-foreground: #5C2D3C;
+  --primary: #FF4D6D;
+  --primary-foreground: #ffffff;
+  --secondary: #FFF0B3;
+  --secondary-foreground: #5C2D3C;
+  --muted: #FFD1DC;
+  --muted-foreground: #A06070;
+  --accent: #FF85A1;
+  --accent-foreground: #ffffff;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 150, 185, 0.25);
+  --input: transparent;
+  --input-background: #FFF0F5;
+  --switch-background: #FFB3C6;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #FF85A1;
+  --radius: 1.25rem;
+}
+
+.dark {
+  --background: oklch(0.145 0 0);
+  --foreground: oklch(0.985 0 0);
+  --card: oklch(0.145 0 0);
+  --card-foreground: oklch(0.985 0 0);
+  --primary: oklch(0.985 0 0);
+  --primary-foreground: oklch(0.205 0 0);
+  --secondary: oklch(0.269 0 0);
+  --secondary-foreground: oklch(0.985 0 0);
+  --muted: oklch(0.269 0 0);
+  --muted-foreground: oklch(0.708 0 0);
+  --accent: oklch(0.269 0 0);
+  --accent-foreground: oklch(0.985 0 0);
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: oklch(0.637 0.237 25.331);
+  --border: oklch(0.269 0 0);
+  --input: oklch(0.269 0 0);
+  --ring: oklch(0.439 0 0);
+}
