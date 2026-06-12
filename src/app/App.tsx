@@ -533,7 +533,7 @@ function LetterScreen({
                   margin: 0,
                 }}
               >
-                — com amor, Hello Kitty 🎀
+                — com carinho, Enzito
               </p>
             </div>
           </div>
